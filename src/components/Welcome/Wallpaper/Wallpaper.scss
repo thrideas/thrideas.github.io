@@ -1,0 +1,21 @@
+$umbrella-radius: 300vmax;
+$umbrella-margin: -1 * $umbrella-radius / 2;
+
+.wallpaper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.umbrella {
+  height: $umbrella-radius;
+  width: $umbrella-radius;
+  background: url("./umbrella.svg") no-repeat center;
+  position: absolute;
+  left: 75vw;
+  top: 25vh;
+  margin-left: $umbrella-margin;
+  margin-top: $umbrella-margin;
+  animation: App-logo-spin infinite 60s linear;
+}
