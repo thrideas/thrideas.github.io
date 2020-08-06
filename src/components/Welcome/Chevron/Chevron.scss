@@ -1,0 +1,31 @@
+.chevron-container {
+  position: absolute;
+  bottom: 5vh;
+  width: 100vw;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.chevron {
+  -webkit-animation: chevron-bounce 0.5s infinite alternate;
+  animation: chevron-bounce 0.5s infinite alternate;
+  width: 5vw;
+}
+
+@-webkit-keyframes chevron-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5vh);
+  }
+}
+
+@keyframes chevron-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5vh);
+  }
+}
