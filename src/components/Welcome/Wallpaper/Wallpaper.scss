@@ -11,7 +11,7 @@ $umbrella-margin: -1 * $umbrella-radius / 2;
 .umbrella {
   height: $umbrella-radius;
   width: $umbrella-radius;
-  background: url("./umbrella.svg") no-repeat center;
+  background: url("public/svg/Umbrella.svg") no-repeat center;
   position: absolute;
   left: 75vw;
   top: 25vh;
