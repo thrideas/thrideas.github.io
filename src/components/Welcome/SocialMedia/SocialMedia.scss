@@ -1,0 +1,25 @@
+.social-media {
+  list-style: none;
+  right: 1vw;
+  position: absolute;
+  top: 0;
+}
+
+.social-media li a {
+  position: relative;
+  font-size: 25pt;
+  text-align: right;
+  padding: 0px 25px 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social-media li a:hover {
+  padding: 0px 10px 10px 10px;
+  font-size: 35pt;
+  text-align: right;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}

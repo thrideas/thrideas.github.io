@@ -11,11 +11,20 @@ $umbrella-margin: -1 * $umbrella-radius / 2;
 .umbrella {
   height: $umbrella-radius;
   width: $umbrella-radius;
-  background: url("public/svg/Umbrella.svg") no-repeat center;
+  background: url("/umbrella.svg") no-repeat center;
   position: absolute;
   left: 75vw;
   top: 25vh;
   margin-left: $umbrella-margin;
   margin-top: $umbrella-margin;
-  animation: App-logo-spin infinite 60s linear;
+  animation: spin infinite 60s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

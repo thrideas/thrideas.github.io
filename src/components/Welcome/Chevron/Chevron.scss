@@ -12,15 +12,6 @@
   width: 5vw;
 }
 
-@-webkit-keyframes chevron-bounce {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-5vh);
-  }
-}
-
 @keyframes chevron-bounce {
   0% {
     transform: translateY(0);
