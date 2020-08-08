@@ -1,22 +1,17 @@
 import React from 'react';
 import './Welcome.scss';
 import Wallpaper from './Wallpaper/Wallpaper';
-import Chevron from "./Chevron/Chevron";
 import SocialMedia from "./SocialMedia/SocialMedia";
-import {ReactComponent as BackWaves} from 'assets/svg/BackWaves.svg';
-import {ReactComponent as FrontWaves} from 'assets/svg/FrontWaves.svg';
+import Wave from "./Wave/Wave";
+import TagLine from "./TagLine/TagLine";
 
 class Welcome extends React.Component {
     render() {
         return <div>
             <Wallpaper/>
+            <Wave/>
             <SocialMedia/>
-            <div className="footer">
-                <BackWaves/>
-                <Chevron/>
-                <FrontWaves/>
-                <div className="margin"/>
-            </div>
+            <TagLine/>
         </div>;
     }
 }
