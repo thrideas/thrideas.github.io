@@ -1,6 +1,6 @@
 @import "../Welcome.scss";
 
-.left {
+.tag-line {
   position: absolute;
   left: $welcome-side-margin;
   top: $welcome-top-margin;
@@ -9,4 +9,10 @@
 
 .logo{
   width: 50vw;
+}
+
+p{
+  font-family: CreteRound, serif;
+  font-size: 15pt;
+  line-height: 0.5;
 }
