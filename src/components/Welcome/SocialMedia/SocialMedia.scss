@@ -1,25 +1,23 @@
+@import "../Welcome.scss";
+
 .social-media {
-  list-style: none;
-  right: 1vw;
   position: absolute;
-  top: 0;
+
+  top: $welcome-top-margin;
+  right: $welcome-side-margin;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.social-media li a {
-  position: relative;
-  font-size: 25pt;
+.social-media a {
   text-align: right;
-  padding: 0px 25px 10px 25px;
-  text-decoration: none;
+  font-size: 30pt;
   color: #fff;
   transition: 0.3s;
+  margin: 5%;
 }
 
-.social-media li a:hover {
-  padding: 0px 10px 10px 10px;
-  font-size: 35pt;
-  text-align: right;
-  text-decoration: none;
-  color: #fff;
-  transition: 0.3s;
+.social-media a:hover {
+  font-size: 55pt;
 }

@@ -1,7 +1,9 @@
+@import "../Welcome.scss";
+
 .left {
   position: absolute;
-  left: 5vw;
-  top: 20vh;
+  left: $welcome-side-margin;
+  top: $welcome-top-margin;
   color: white;
 }
 
