@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7031129e.chunk.css",
+    "main.css": "/static/css/main.236b016d.chunk.css",
     "main.js": "/static/js/main.930dd91d.chunk.js",
     "main.js.map": "/static/js/main.930dd91d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ec0168c0.js",
@@ -8,9 +8,9 @@
     "static/js/2.274d3523.chunk.js": "/static/js/2.274d3523.chunk.js",
     "static/js/2.274d3523.chunk.js.map": "/static/js/2.274d3523.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.deabef617e144609549ca10abb848a10.js": "/precache-manifest.deabef617e144609549ca10abb848a10.js",
+    "precache-manifest.76417b7e7a22e11cff326d25b76a568e.js": "/precache-manifest.76417b7e7a22e11cff326d25b76a568e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7031129e.chunk.css.map": "/static/css/main.7031129e.chunk.css.map",
+    "static/css/main.236b016d.chunk.css.map": "/static/css/main.236b016d.chunk.css.map",
     "static/js/2.274d3523.chunk.js.LICENSE.txt": "/static/js/2.274d3523.chunk.js.LICENSE.txt",
     "static/media/BackWaves.99deb32d.svg": "/static/media/BackWaves.99deb32d.svg",
     "static/media/CreteRound-Regular.ttf": "/static/media/CreteRound-Regular.cb7a850d.ttf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec0168c0.js",
     "static/js/2.274d3523.chunk.js",
-    "static/css/main.7031129e.chunk.css",
+    "static/css/main.236b016d.chunk.css",
     "static/js/main.930dd91d.chunk.js"
   ]
 }
