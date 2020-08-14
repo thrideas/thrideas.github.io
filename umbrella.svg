@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 808.77 850.39">
+    <defs>
+        <style>
+            .cls-1{fill:#addcc9;}.cls-2{fill:#dbebc2;}.cls-3{fill:#fdd2b5;}.cls-4{fill:#f7a8a6;}.cls-5{fill:#f48b94;}
+        </style>
+    </defs>
+    <polygon class="cls-1" points="404.39 850.39 654.31 769.19 404.39 425.2 404.39 850.39"/>
+    <polygon class="cls-2" points="404.39 425.2 654.31 769.19 808.77 556.59 404.39 425.2"/>
+    <polygon class="cls-3" points="808.77 556.59 808.77 293.8 404.39 425.2 808.77 556.59"/>
+    <polygon class="cls-4" points="404.39 425.2 808.77 293.8 654.31 81.2 404.39 425.2"/>
+    <polygon class="cls-5" points="654.31 81.2 404.39 0 404.39 425.2 654.31 81.2"/>
+    <polygon class="cls-1" points="404.39 0 154.46 81.2 404.39 425.2 404.39 0"/>
+    <polygon class="cls-2" points="404.39 425.2 154.46 81.2 0 293.8 404.39 425.2"/>
+    <polygon class="cls-3" points="0 293.8 0 556.59 404.39 425.2 0 293.8"/>
+    <polygon class="cls-4" points="404.39 425.2 0 556.59 154.46 769.19 404.39 425.2"/>
+    <polygon class="cls-5" points="154.46 769.19 404.39 850.39 404.39 425.2 154.46 769.19"/>
+</svg>
