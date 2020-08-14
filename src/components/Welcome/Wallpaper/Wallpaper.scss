@@ -3,9 +3,11 @@ $umbrella-margin: -1 * $umbrella-radius / 2;
 $filter-color: rgba(0,0,0,0.05);
 
 .wallpaper {
-  position: relative;
+  position: absolute;
   height: 100vh;
   width: 100vw;
+  bottom: 0;
+
   overflow: hidden;
   background-color: $filter-color;
   animation: flash 1s ease-out;
