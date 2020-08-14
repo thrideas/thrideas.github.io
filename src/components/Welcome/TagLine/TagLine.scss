@@ -8,12 +8,19 @@
   transform: translateY(-50%);
 }
 
-.logo{
+.logo {
   width: 50vw;
 }
 
-p{
+.text-container {
+  max-width: 70vw;
+}
+
+.text {
   font-family: CreteRound, serif;
   font-size: 15pt;
-  line-height: 0.5;
+}
+
+span {
+  display: inline-block;
 }

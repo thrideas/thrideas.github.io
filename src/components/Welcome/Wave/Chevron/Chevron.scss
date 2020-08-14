@@ -9,7 +9,7 @@
 .chevron {
   -webkit-animation: chevron-bounce 0.5s infinite alternate;
   animation: chevron-bounce 0.5s infinite alternate;
-  width: 5vw;
+  width: 5vmax;
 }
 
 @keyframes chevron-bounce {
