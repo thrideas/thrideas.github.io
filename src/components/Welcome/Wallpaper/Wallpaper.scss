@@ -1,6 +1,6 @@
 $umbrella-radius: 300vmax;
 $umbrella-margin: -1 * $umbrella-radius / 2;
-$filter-color: rgba(0,0,0,0.05);
+$filter-color: rgba(0, 0, 0, 1);
 
 .wallpaper {
   position: absolute;
@@ -13,26 +13,12 @@ $filter-color: rgba(0,0,0,0.05);
   animation: flash 1s ease-out;
 }
 
-.umbrella {
-  height: $umbrella-radius;
-  width: $umbrella-radius;
-  background: url("/umbrella.svg") no-repeat center;
+#logo {
+  margin: 0;
   position: absolute;
-  left: 75vw;
-  top: 25vh;
-  z-index: -1;
-  margin-left: $umbrella-margin;
-  margin-top: $umbrella-margin;
-  animation: spin infinite 60s linear;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 @keyframes flash {

@@ -10,6 +10,8 @@
 
 .logo {
   width: 50vw;
+  filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
 }
 
 .text-container {

@@ -6,9 +6,6 @@ function App() {
     return (
         <div>
             <Welcome/>
-            <h1>
-                Portfolio will be here soon! Working on it!
-            </h1>
         </div>
     );
 }
