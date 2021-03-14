@@ -6,11 +6,11 @@ import { TagLine } from './TagLine/TagLine';
 
 export class Welcome extends React.Component {
     render() {
-        return <div>
+        return <>
             <Wallpaper />
             <SocialMedia />
             <TagLine />
-        </div>;
+        </>;
     }
 }
 
