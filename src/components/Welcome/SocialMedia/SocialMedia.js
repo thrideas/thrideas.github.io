@@ -1,12 +1,14 @@
 import React from 'react';
 import './SocialMedia.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faItchIo, faTwitch, faGithub, faYoutube, faPatreon } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter, faItchIo, faTwitch, faGithub, faYoutube, faPatreon, faTiktok, faReddit} from "@fortawesome/free-brands-svg-icons"
 import { faDonate } from "@fortawesome/free-solid-svg-icons"
 
 export class SocialMedia extends React.Component {
     render() {
         return <div className="social-media">
+            <a href="https://www.tiktok.com/@thrideas"><FontAwesomeIcon icon={faTiktok} /></a>
+            <a href="https://www.reddit.com/u/thrideas"><FontAwesomeIcon icon={faReddit} /></a>
             <a href="https://twitter.com/thrideas"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href="https://thrideas.itch.io/"><FontAwesomeIcon icon={faItchIo} /></a>
             <a href="https://www.twitch.tv/thrideas"><FontAwesomeIcon icon={faTwitch} /></a>
