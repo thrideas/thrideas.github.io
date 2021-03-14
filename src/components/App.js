@@ -4,9 +4,7 @@ import { Welcome } from './Welcome/Welcome';
 
 export function App() {
     return (
-        <div>
-            <Welcome />
-        </div>
+        <Welcome />
     );
 }
 
