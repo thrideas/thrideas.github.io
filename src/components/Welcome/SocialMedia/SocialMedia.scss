@@ -1,6 +1,7 @@
 @import "../Welcome.scss";
 
 .social-media {
+  z-index: 21;
   position: absolute;
 
   top: $welcome-top-margin;
