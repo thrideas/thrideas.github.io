@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
-import Welcome from "./Welcome/Welcome";
+import { Welcome } from './Welcome/Welcome';
 
-function App() {
+export function App() {
     return (
         <div>
-            <Welcome/>
+            <Welcome />
         </div>
     );
 }
 
-export default App;
+
